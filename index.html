@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>COSMETICS | Beauty & Care</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ===== HEADER ===== -->
+  <header class="header">
+    <div class="container nav">
+      <!-- নিজের লোগো/প্রোফাইল ছবি এখানে বসাবেন -->
+      <a href="#" class="brand">
+        <div class="logo-placeholder">LOGO</div>
+        <div>
+          <h1>COSMETICS</h1>
+          <span>BEAUTY & CARE</span>
+        </div>
+      </a>
+
+      <nav class="menu" id="menu">
+        <a href="#home">হোম</a>
+        <a href="#products">প্রোডাক্ট</a>
+        <a href="#about">আমাদের সম্পর্কে</a>
+        <a href="#contact">যোগাযোগ</a>
+      </nav>
+
+      <button class="menu-btn" id="menuBtn">☰</button>
+    </div>
+  </header>
+
+  <!-- ===== HERO ===== -->
+  <main id="home">
+    <section class="hero">
+      <div class="container hero-content">
+        <p class="eyebrow">PREMIUM BEAUTY STORE</p>
+        <h2>Beauty Begins With <span>Confidence.</span></h2>
+        <p>
+          Original cosmetics and beauty products in one place.
+          আপনার পছন্দের প্রোডাক্ট সহজেই অর্ডার করুন।
+        </p>
+        <div class="hero-buttons">
+          <a href="#products" class="btn btn-light">প্রোডাক্ট দেখুন</a>
+          <a href="#contact" class="btn btn-outline">যোগাযোগ করুন</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== FEATURES ===== -->
+    <section class="features">
+      <div class="container feature-grid">
+        <div><strong>🚚 Fast Delivery</strong><span>দ্রুত ডেলিভারি</span></div>
+        <div><strong>✓ Original Products</strong><span>বিশ্বস্ত পণ্য</span></div>
+        <div><strong>💬 Easy Order</strong><span>WhatsApp & Messenger</span></div>
+        <div><strong>★ Customer Support</strong><span>সাপোর্টের জন্য যোগাযোগ করুন</span></div>
+      </div>
+    </section>
+
+    <!-- ===== PRODUCTS ===== -->
+    <section class="section" id="products">
+      <div class="container">
+        <div class="section-title">
+          <p>OUR COLLECTION</p>
+          <h2>প্রোডাক্টসমূহ</h2>
+          <span>আপনি এখান থেকে নিজের প্রোডাক্ট ও দাম যোগ করবেন</span>
+        </div>
+
+        <!--
+          ===========================
+          PRODUCT ADD AREA
+          ===========================
+          নতুন প্রোডাক্ট যোগ করতে একটি .product-card কপি করুন।
+          ছবির জায়গায় নিজের ছবির URL দিন।
+          নাম ও দাম নিজের মতো পরিবর্তন করুন।
+        -->
+        <div class="product-grid" id="productGrid">
+          <div class="empty-product">
+            <div class="plus">+</div>
+            <h3>আপনার প্রোডাক্ট এখানে যোগ করুন</h3>
+            <p>এই জায়গাটি আপনার জন্য খালি রাখা হয়েছে।</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== ABOUT ===== -->
+    <section class="about section" id="about">
+      <div class="container about-box">
+        <div>
+          <p class="eyebrow">ABOUT US</p>
+          <h2>COSMETICS</h2>
+          <p>
+            Beauty and skincare products-এর জন্য আপনার বিশ্বস্ত অনলাইন শপ।
+            এখানে আপনার নিজের পরিচিতি ও শপের বিস্তারিত তথ্য যোগ করতে পারবেন।
+          </p>
+        </div>
+        <div class="about-design">BEAUTY<br><span>&</span><br>CARE</div>
+      </div>
+    </section>
+
+    <!-- ===== CONTACT ===== -->
+    <section class="section contact" id="contact">
+      <div class="container">
+        <div class="section-title">
+          <p>ORDER NOW</p>
+          <h2>আমাদের সাথে যোগাযোগ করুন</h2>
+        </div>
+
+        <div class="contact-grid">
+          <!-- নিজের WhatsApp লিংক বসান -->
+          <a class="contact-card whatsapp" href="#" id="whatsappLink">
+            <span>💬</span>
+            <div>
+              <strong>WhatsApp</strong>
+              <small>অর্ডার করতে ক্লিক করুন</small>
+            </div>
+          </a>
+
+          <!-- নিজের Messenger লিংক বসান -->
+          <a class="contact-card messenger" href="#" id="messengerLink">
+            <span>✉</span>
+            <div>
+              <strong>Messenger</strong>
+              <small>মেসেজ করতে ক্লিক করুন</small>
+            </div>
+          </a>
+        </div>
+
+        <p class="setup-note">
+          ⚙️ WhatsApp এবং Messenger-এর আসল লিংক <b>script.js</b> ফাইলে বসাতে পারবেন।
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer>
+    <div class="container footer-content">
+      <div class="brand">
+        <div class="logo-placeholder">LOGO</div>
+        <div>
+          <h2>COSMETICS</h2>
+          <span>BEAUTY & CARE</span>
+        </div>
+      </div>
+      <p>© 2026 COSMETICS. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
